@@ -8,7 +8,7 @@ const App = () => {
   const [loading, setLoading] = useState(false);
 
   // Unsplash API access key
-  const API_KEY = "dSmZQUf9HXsFT-JODXuIwObDkJLPGNGIJf0zPmyqIGQ";
+  const API_KEY = "";
 
   // Fetch photos from Unsplash API
   const fetchPhotos = async (query = "") => {
